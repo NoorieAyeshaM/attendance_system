@@ -151,27 +151,25 @@ After executing the script you will see the updated database table:
 
 11.TROUBLESHOOTING:
 
-* Database Connection Issues: Error:- Error connecting to database: <details>
+* Database Connection Issues: Error:- Error connecting to database
 
-Solution: Ensure MySQL server is running.
+Solution: * Ensure MySQL server is running.
 
-Verify the database credentials (username, password, host, and database name).
+          * Verify the database credentials (username, password, host, and database name).
 
-Check if the attendance_system database and attendance table exist.
+          * Check if the attendance_system database and attendance table exist.
 
 * Camera Not Accessible: Ensure no other application is using the camera.
 
-*  MySQL Query Errors: Error:- Error marking attendance: <details>
+*  MySQL Query Errors: Error:- Error marking attendance
 
-Solution: Verify the attendance table schema matches the INSERT query fields.
+Solution: * Verify the attendance table schema matches the INSERT query fields.
 
-* Face Not Recognized: Issue:- Known faces are not being detected.
+          * Face Not Recognized: Issue:- Known faces are not being detected.
 
-Solution:
+Solution: * Ensure the face data was included when the model was trained.
 
-Ensure the face data was included when the model was trained.
-
-Check lighting conditions and camera angle for clear face visibility.
+          * Check lighting conditions and camera angle for clear face visibility.
 
 
   
